@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+
+# IDE/editor specific files
+.vscode/         # Visual Studio Code settings
+.idea/           # JetBrains IDE settings
+*.sublime-workspace  # Sublime Text workspace files
+
+# Environment variables
+.env             # Environment variable files (if using dotenv)
+
+# Package manager files
+package-lock.json  # npm lock file (optional)
+yarn.lock          # Yarn lock file (optional)
+
+# Coverage reports
+coverage/
+
+# Local configuration files
+*.local
+
+# Miscellaneous files
+*.bak             # Backup files
+*.swp             # Swap files from vim
+
+# Ignore any compiled CSS or JS if using preprocessors like SASS or TypeScript
+*.css.map         # Source maps for CSS
+*.js.map          # Source maps for JS
+
+# Ignore any other generated files or folders you do not want to track
