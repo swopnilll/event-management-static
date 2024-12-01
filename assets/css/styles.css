@@ -222,8 +222,33 @@
   border-radius: 12px;
 }
 
+.section-2-home {
+  padding: 24px;
+}
+
+.category-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-image-wrapper img {
+}
+
+.category-image-wrapper p {
+  color: #2d2c3c;
+  text-align: center;
+}
+
 /* For tablets (min-width 768px) */
 @media (min-width: 768px) {
+  .category-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
   .section-1-home {
     align-items: center;
     height: calc(100vh - 76px);
