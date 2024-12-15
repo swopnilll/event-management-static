@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About Me</title>
     <link rel="stylesheet" href="assets/css/default.css" />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/about-me-style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/event-detail-style.css" />
+    <title>Event Detail Page</title>
   </head>
   <body>
     <header class="header">
@@ -21,7 +21,7 @@
       <section class="big-screen-nav">
         <nav class="primary-nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li><a href="events.html">Events</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -50,10 +50,10 @@
       <section class="header-navigation">
         <nav class="primary-nav">
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="events.html">Events</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </nav>
 
@@ -67,23 +67,40 @@
       </section>
     </section>
 
-    <section class="about-me-container">
-      <section class="about-me-image">
-        <img src="assets/images/mission.jpg" alt="About Me Image" />
+    <section class="event-detail-page">
+      <section class="event-detail-image">
+        <img src="assets/images/event-detail-image.svg" alt="Event Detail" />
       </section>
 
-      <section class="about-me-content">
-        <h3>Our Mission</h3>
-        <h4>Turning Moments into Memories</h4>
-        <p>
-          At Eventify, we are passionate about creating unforgettable
-          experiences by transforming your event ideas into reality. Our mission
-          is to provide seamless event planning and management services that
-          exceed expectations through innovation, creativity, and attention to
-          detail. We are committed to delivering exceptional customer service,
-          fostering meaningful connections, and crafting memorable events that
-          leave a lasting impact.
-        </p>
+      <section class="event-detail-content">
+        <h3>Coldplay Concert</h3>
+
+        <section class="event-detail-top">
+          <section class="date-time">
+            <h4>Date and Time</h4>
+            <div class="date-time-image">
+              <img src="assets/images/calen.svg" alt="" />
+              <p>Saturday, 15 December 2024</p>
+            </div>
+
+            <div class="date-time-image">
+              <img src="assets/images/time.svg" alt="" />
+              <p class="time">6:30 PM - 9:30 PM</p>
+            </div>
+          </section>
+          <section class="ticket-information">
+            <button class="buy-ticket-button">
+              <img src="assets/images/buy-ticket.svg" alt="" />
+              <span>Buy Tickets</span>
+            </button>
+
+            <h4>Ticket Information</h4>
+            <div class="ticket-price">
+              <img src="assets/images/buy-ticket.svg" alt="" />
+              <p>Standard Ticket: 500 $ Each</p>
+            </div>
+          </section>
+        </section>
       </section>
     </section>
 

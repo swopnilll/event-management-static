@@ -1,0 +1,50 @@
+.about-me-container {
+  background-color: #2b293df2;
+  color: #a9a9a9;
+  padding: 12px 0;
+}
+
+.about-me-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden; /* Prevent image overflow */
+}
+
+.about-me-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure proper scaling */
+}
+
+.about-me-content {
+  margin-top: 12px;
+  padding: 0 12px;
+}
+
+.about-me-content h3 {
+  font-weight: 900;
+}
+
+/* For tablets (min-width 768px) */
+@media (min-width: 768px) {
+  .about-me-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-me-image {
+    flex-basis: 50%;
+    height: 100%;
+  }
+
+  .about-me-content {
+    flex-basis: 50%;
+  }
+
+  .about-me-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure proper scaling */
+  }
+}
